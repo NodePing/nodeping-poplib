@@ -1,6 +1,8 @@
-# node-poplib
+# nodeping-poplib
 
-node-poplib offers an MIT-licensed client library for the POP3 protocol. It is currently provides the following capabilities:
+This is a fork of ditesh/node-poplib but without the 'optimist' dependency for testing that npm likes to complain about.
+
+nodeping-poplib offers an MIT-licensed client library for the POP3 protocol. It is currently provides the following capabilities:
 
 * USER, PASS, APOP
 * LIST, TOP, RETR, DELE
@@ -45,7 +47,7 @@ QUIT success
 
 ## Detailed Usage
 
-node-poplib is event based. It is best to illustrate via examples:
+nodeping-poplib is event based. It is best to illustrate via examples:
 
 Here we initialize the client (for plain text transmission):
 
