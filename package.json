@@ -1,5 +1,5 @@
 {
-    "name": "poplib",
+    "name": "nodeping-poplib",
     "version": "v0.1.8",
     "license": "MIT",
     "description": "POP3 client library for Node.js",
